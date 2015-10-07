@@ -4,7 +4,7 @@ Some version control scripts we use
 ## list_large_files.rb
 
 Lists files of the commit history which are larger than a certain threshold.
-For example the following lists every file larger than 10mb and its commits beginning from the **HEAD** ref:
+For example the following lists every file larger than 10mb and its commits beginning from the *HEAD* ref:
 
     ./list_large_files.rb HEAD 10
     
