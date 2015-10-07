@@ -2,9 +2,12 @@
 # source: http://stackoverflow.com/a/7945209/430418
 
 head, treshold = ARGV
+
 head ||= 'HEAD'
+treshold ||= '50'
+
 Megabyte = 1000 ** 2
-treshold = (treshold || 0.1).to_f * Megabyte
+treshold = treshold.to_f * Megabyte
 
 big_files = {}
 
