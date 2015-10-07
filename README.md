@@ -10,4 +10,4 @@ For example the following lists every file larger than 10mb and its commits begi
     
 For the default Renuo use case (finding files in repos which are more than 50mb) you can run it directly downloaded from here:
 
-    sh -c "$(curl -fsSL -H "Content-Type: text/plain" -X GET https://raw.githubusercontent.com/renuo/vcs-scripts/master/list_large_files.rb)"
+    ruby < <(curl -s https://raw.githubusercontent.com/renuo/vcs-scripts/master/list_large_files.rb)
